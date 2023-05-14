@@ -14,7 +14,7 @@ Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking
 
 <hr>
 <br>
-<img style="padding-right: 30px;" align="left"  width="500" height="300" src="https://user-images.githubusercontent.com/87468669/220012433-6594f48e-a75c-4af1-803b-835e062acac0.png">
+<img style="padding-right: 30px;" align="left"  width="500" height="300" src="https://avatars.githubusercontent.com/u/97831939?v=4">
 <br>
 <p><strong>Name :</strong> <a href="#">Yusuf Ayomide</a></p>
 <p><strong>Known as :</strong> <a href="#">0xVenus</a></p>
