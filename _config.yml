@@ -1,1 +1,11 @@
+theme: jekyll-theme-hacker
+title: V3NU5💀AL13N:~#
+description: Hack Enumerate Harder!. Eat. Sleep. Repeat.
+show_downloads: false
+show_repo: false
 
+gems:
+- jekyll-sitemap
+
+whitelist:
+- jekyll-sitemap
