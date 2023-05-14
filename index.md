@@ -23,3 +23,27 @@ Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking
 <p><strong>Twitter :</strong> <a href="https://twitter.com/0x_venus">twitter.com/0x_venus</a></p>
 <br clear="left">
 <br clear="left">
+
+* * *
+### **TryHackMe Writeups:~#**
+* * *
+
+
+
+
+* * *
+<h4 class="mume-header" id="pg">PG Play/PG Practice:</h4>
+Practice your pentesting skills in a standalone, private lab environment with the additions of PG Play and PG Practice to Offensive Security’s Proving Grounds. 
+<hr>
+<hr>
+
+
+
+* * *
+### **Hack The Box Writeups:~#**
+* * *
+
+
+* * *
+### **CTF Write Ups:~#**
+* * *
