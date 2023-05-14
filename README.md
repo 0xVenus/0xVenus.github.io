@@ -13,4 +13,4 @@
 
 - 💞️ I’m looking to collaborate on Projects
 
-- 📫 How to reach me on Twitter @0x_venus
+- 📫 How to reach me on Twitter @0x_venus https://twitter.com/0x_venus
