@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Home
@@ -10,7 +9,7 @@ title: Home
 ### Welcome To My Cyber Security Blog, H4X0r
 * * *
 
-Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking That I Learn... 😉
+Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking and GSM That I Learn... 😉 <h1> Hacking isn't a crime jsyk</h1>
 
 <hr>
 <br>
