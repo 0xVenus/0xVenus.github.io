@@ -7,7 +7,7 @@
 ### OS = windows
 Hi guys,
 
-Will be walking you through a pwntilldawn easy box "pwndrive"
+Will be walking you through a pwntilldawn easy box "pwndriveacademy"
 
 Let's get started.
 
