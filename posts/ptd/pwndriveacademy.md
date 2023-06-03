@@ -6,7 +6,9 @@
 
 ### OS = windows
 Hi guys,
+
 Will be walking you through a pwntilldawn easy box "pwndrive"
+
 Let's get started.
 
 ## NMAP SCAN:
@@ -133,13 +135,20 @@ Nmap done: 1 IP address (1 host up) scanned in 129.34 seconds
 
 From the scan it shows the box is running on a windows OS
 
-so, enumerating port 21 (ftp) gives nothing. Then moving on to the next port which's port 80(http)
+so, enumerating port 21 (ftp) gives nothing. 
+
+Then moving on to the next port which's port 80(http)
 
 we can see that there's nothing intresting on the page except the *signin* functionality
+
 so, let's try to signin using default credentials **admin:admin** 
+
 ![2023-06-03_22-45](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/af1826b2-aa06-4337-b2d7-55d26d90e0ca)
+
 boom we are in the admin's panel.
+
 AS you can see there is an upload functionality,let's try to upload a shell (NB: the server is running php. Php web shell should work)
+
 ![succ_upload](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/1d05b3a7-0383-459d-afa3-97d66d5b38f2)
 wow our shell has been uploaded successfully.
 ~~~
@@ -155,7 +164,9 @@ Now lets's gain  reverse shell via our uploaded webshell
 i used a powershell reverse shell from [https://revshells.com/].
 Then start netcat listener and press F5 to refresh the page.
 ![done](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8c23decd-9d37-41df-834a-846a6ea9a815)
+
 BOOM!!  sweet reverse shell ;)
+
 luckily we got the shell as system  escalating privilege isn't required.
 
 DONE!!
