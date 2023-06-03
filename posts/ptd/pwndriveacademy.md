@@ -159,7 +159,7 @@ Good we found it ;)
 
 Now lets's gain  reverse shell via our uploaded webshell
 ![revrsjpg](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a68e92f2-b193-41dc-958b-0f0b2f1ea797)
-i used a powershell reverse shell from ![revshells](https://revshells.com/) .
+i used a powershell reverse shell from [revshells](https://revshells.com/) .
 <br> Then start netcat listener and press F5 to refresh the page.
 ![done](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8c23decd-9d37-41df-834a-846a6ea9a815)
 
