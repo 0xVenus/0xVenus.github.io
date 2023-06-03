@@ -48,7 +48,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 * * *
 ### **PwnTillDawn:~#**
 * * *
-- [[JUN 03 2023]] [PwnDrive Academy](https://0xVenus.github.io/posts/ptd/pwndriveacademy.md) `Weak Authentication, File Upload`
+- [[JUN 03 2023]] [PwnDrive Academy](https://0xVenus.github.io/posts/ptd/pwndriveacademy.html) `Weak Authentication, File Upload`
 
 
 
