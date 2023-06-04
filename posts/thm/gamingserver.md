@@ -34,7 +34,8 @@ wow, we got few directories which "secret" and "upload" seems to be the sus ones
 
 Then let's navigate to the next directory which is secret
 ![found_ssh_key_in_the_dir](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/485b72c6-9b6f-4100-9757-a9c216cc3ea9)
-As you can see there is an ssh key in the directory, copy the key to your attackbox.
+
+  <br> As you can see there is an ssh key in the directory, copy the key to your attackbox.
 
 <br> let's ssh into the box using the username found earlier "john" together with the ssh key
 ```
@@ -42,7 +43,7 @@ ssh -i ssh_key john@10.10.127.240
 ```
 it is requesting for john's password which we don't have , it shows the ssh key is encrypted
 <br> let's decrypt the key using **ssh2johh** 
-<br> then, crack the pasword using john
+<br> then, crack the pasword using john and the password list found earlier in the upload directory "dict.lst"
 
 ![ssh_passphrase](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8cb8be19-49e7-4ee6-b4a0-215df3c4aa2a)
 
