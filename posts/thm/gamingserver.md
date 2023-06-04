@@ -52,7 +52,7 @@ as you can see we've gotten the passphrase for the ssh key
 ![got-in-the-box](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ebb29abf-e63e-4e74-beb6-875507a8656b)
 so, let's cat the user flag Hackerman :)
  
- ### privilege escalation
+ <h2>privilege escalation</h2>
  
  upload [les](https://github.com/mzet-/linux-exploit-suggester) (linux exploit suggester) on the box
  
