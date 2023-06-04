@@ -28,7 +28,7 @@ wow, we got few directories which "secret" and "upload" seems to be the sus ones
 
 <br> Navigating to the upload directory shows a password list file and a manifesto file
 
-<br> now, let's download the file to our attackbox using wget
+<br> now, let's download the files to our attackbox using wget
 
 ![wget_for_downldin_the_files](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/6d03f9c2-3acc-4b0a-be20-deb596b53af7)
 
@@ -52,7 +52,7 @@ as you can see we've gotten the passphrase for the ssh key
 ![got-in-the-box](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ebb29abf-e63e-4e74-beb6-875507a8656b)
 so, let's cat the user flag Hackerman :)
  
- ## privilege escalation
+ ### privilege escalation
  upload [les](https://github.com/mzet-/linux-exploit-suggester) (linux exploit suggester) on the box
  
  ![les](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/9ee2575d-f648-47ec-9572-b9569a0ede76)
