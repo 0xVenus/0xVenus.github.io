@@ -56,7 +56,7 @@ so, let's cat the user flag Hackerman :)
  
  ![les](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/9ee2575d-f648-47ec-9572-b9569a0ede76)
 
- so, LES outputs shows that our target is vulnerable to cve-2021-3156 **sudo same edit**
+ so, LES outputs shows that our target is vulnerable to cve-2021-3156 **sudo baron sameedit**
  <br> run the exploit and pop a root shell
  
 ![root](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/7dcdfa7a-4fbc-4e59-885f-d848a523cdb6)
