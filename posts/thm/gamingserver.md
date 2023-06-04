@@ -15,17 +15,18 @@
   ![nmap](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8830bf4d-d824-4f5b-bedb-0017641a94f5)
 we're done with our scanning
 <br> As you can see there are lots of open ports
-let's start the open ports enumeration from port 80(http)
 
-<br> so, visiting the homepage and viewing the source codes revealed a user named " john" (note it down)
+<br> let's start the open ports enumeration from port 80(http)
+
+<br> so, visiting the homepage and viewing the source code revealed a username " john" (note it down)
 
 ![username_Found_in_homepage_source](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ddbebe41-a572-4713-8747-806265f24bf0)
 
 so, let's proceed to directory bruteforce using my fav tool **ffuf** (fuzz fast u fool)
 ![dir_bruteforc](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/87d19d4f-7493-4a69-8e49-5d852a4b2312)
-wow, we got a directories "secret" and "upload"
+wow, we got few directories which "secret" and "upload" seems to be the sus ones (hacker mindset yunno lol)
 
-<br> Navigating to the upload directory shows a password list file and the manifesto file
+<br> Navigating to the upload directory shows a password list file and a manifesto file
 
 <br> now, let's download the file to our attackbox using wget
 
