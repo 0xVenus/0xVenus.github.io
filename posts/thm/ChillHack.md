@@ -12,7 +12,7 @@ Hi guys ,
 ![nmap](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a3a34c1a-56e5-4c8b-b7ac-b05149c8fa2b)
 
 As you can see we have 3 open ports which port 21(FTP) Allows anonymous login.
-<br> so let's start enumerate the port further by connecting to the ftp server using "anonymous" as username and hitting enter to get logged in. Then download the file on the server to your local machine
+<br> so let's enumerate the port further by connecting to the ftp server using "anonymous" as username and hitting enter to get logged in. Then download the file on the server to your local machine
 
 ![anonymousftp](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/49303fe2-cdba-459b-b3d2-4a7476fb7ecc)
 <br> so, let's check the content of the downloaded file
