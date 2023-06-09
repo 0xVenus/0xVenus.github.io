@@ -17,7 +17,7 @@ As you can see we have 3 open ports which port 21(FTP) Allows anonymous login.
 ![anonymousftp](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/49303fe2-cdba-459b-b3d2-4a7476fb7ecc)
 <br> so, let's check the content of the downloaded file
 
-![anonymousftp](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/2f01e9bb-7d69-4cda-b027-165a57e53c52)
+![note](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/e36502ad-edc5-4183-9125-e2347c83f7ee)
 
 the file contains hint to the box.
 
