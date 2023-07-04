@@ -26,7 +26,7 @@ so, let's proceed to directory bruteforce using my fav tool **ffuf** (fuzz fast 
 ![dir_bruteforc](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/87d19d4f-7493-4a69-8e49-5d852a4b2312)
 wow, we got few directories which "secret" and "upload" seems to be the sus ones (hacker mindset yunno lol)
 
-<br> Navigating to the upload directory shows a password list file and a manifesto file
+<br> Navigating to the upload directory shows a password list and a manifesto file
 
 <br> now, let's download the files to our attackbox using wget
 
@@ -42,7 +42,7 @@ Then let's navigate to the next directory which is secret
 ssh -i ssh_key john@10.10.127.240
 ```
 it is requesting for john's password which we don't have , it shows the ssh key is encrypted
-<br> let's decrypt the key using **ssh2johh** 
+<br> let's decrypt the key using **ssh2john** 
 <br> then, crack the pasword using john and the password list found earlier in the upload directory "dict.lst"
 
 ![ssh_passphrase](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8cb8be19-49e7-4ee6-b4a0-215df3c4aa2a)
