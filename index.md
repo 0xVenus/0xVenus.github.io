@@ -10,7 +10,7 @@ title: Home
 * * *
 
 Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking and GSM That I Learn... 😉 
-<h2>Hacking isn't a crime jsyk.</h2>
+_Ethical Hacking isn't a crime jsyk._
 
 <hr>
 <br>
