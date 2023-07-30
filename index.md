@@ -28,8 +28,8 @@ _Ethical Hacking isn't a crime jsyk._
 ### **TryHackMe Writeups:~#**
 * * *
 - [[JUN 03 2023]] [Gaming Server](https://0xVenus.github.io/posts/thm/gamingserver.html) `ssh key, cve-2021-3156`
-- [[JUN 08 2023]] [Chill Hack](https://0xVenus.github.io/posts/thm/ChillHack.html) `ftp,command injection bypass,port forwading`
-
+- [[JLY 29 2023]] [Chill Hack](https://0xVenus.github.io/posts/thm/ChillHack.html) `ftp,command injection bypass,port forwading`
+- [[JLY 29 2023]] [CMess](https://0xVenus.github.io/posts/thm/CMess.html) `GILA CMS, Passwd backup  and wildcard injection`
 
 * * *
 ### **ProvingGrounds:~#**
