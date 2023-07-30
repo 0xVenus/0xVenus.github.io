@@ -48,7 +48,7 @@ we have our sweet reverse shell. so, stabilize it
  so, we can see our privilege is limited
  let's try escalating privilege
 
- ## Privilege escalation
+ <h2>Privilege escalation</h2>
 
    Uploading linpeas on the box 
   
@@ -66,7 +66,8 @@ we have our sweet reverse shell. so, stabilize it
 
  Okay, so from this we know that there's a backup service running on the server, we can also see this from the linpeas report, and we also found the backed up file in the /tmp folder earlier when we were looking for user priv-esc. We can in fact see the exact command that is being run when the backup happens .
 ```  */2 * * * * root cd /home/andre/backup && tar -zcf /tmp/andre_backup.tar.gz * ```
- There's a way to exploit tar if it uses wildcards, there is more info on it in this article ![link](https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/) .
+ There's a way to exploit tar if it uses wildcards, there is more info on it in this article
+ ![link](https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/) .
 
 The name of the attack is Wildcard injection, and it's a way to make tar run an executable for us. Since the backup service is running as root, if we make this executable a reverse shell, then we got ourselves a root shell. 
 set your netcat listener.
@@ -84,7 +85,8 @@ And we are root lol ;)
 Thanks hope you had fun!
 
 
- For any enquiries shoot me a dm on twitter @ ![link](https://twitter.co/0x_venus)
+ For any enquiries shoot me a dm on twitter @  
+ ![link](https://twitter.co/0x_venus)
 
 
 
