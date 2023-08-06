@@ -1,6 +1,8 @@
 --------
 BOxname = BBScute
 ---------
+
+---------
 difficulty = easy
 ---------
 
@@ -80,6 +82,8 @@ using ``` /usr/sbin/hping3 then /bin/bash/ -p ``` gives us root.
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/bce4e3c1-ba95-464c-aa1e-ac592bf793e7)
 
 Thanks and have a nice day.
+
 reach out to me at [twitter](https://twitter.com/0x_venus]
+
 Bankai TENSA ZANGETSU lol :)
 
