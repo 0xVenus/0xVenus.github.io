@@ -1,4 +1,4 @@
-![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/929f86ba-91f5-4278-b53b-555b5afa2985)### Chill hack
+### Chill hack
 ### Difficulty = easy
 ### Os = linux
 ### [LINK](https://tryhackme.com/room/chillhack)
