@@ -4,8 +4,8 @@
 ### [LINK](https://tryhackme.com/room/chillhack)
 
 Hi guys ,
-<br> let's root another fun box today.
-<br> let's get started.
+<br> let's root another fun box today 🔥🔥.
+<br> let's get started🤞🤞.
 
 <h2>Nmap scan</h2>
 
@@ -29,7 +29,7 @@ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://10.10.85.120/FUZZ
 ![fuzz](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/e6bce9a6-9f52-4e85-975a-9f959b1a6b73)
 
 got the directory */secret*
-<br> visiting the directory we can tell that the box is about command injection
+<br> visiting the directory we can tell that the box is about command injection 🙂🙂
 
 ![http_command_inj_page](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/e6568236-8929-4d80-ae25-fff0fd4ab7ec)
 <br> so, you can confirm it by executing the **id** command
@@ -77,7 +77,7 @@ that's the unintended way to gain root
 
 so let's go the intended way:
 
-bankai senbonzakura kagyeoshi lol :)
+bankai senbonzakura kagyeoshi lol 🌚😂
 
 
 
