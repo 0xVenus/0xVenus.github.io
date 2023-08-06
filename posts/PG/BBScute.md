@@ -1,10 +1,6 @@
---------
-BOxname = BBScute
----------
+### Boxname = BBScute
+### difficulty = easy
 
----------
-difficulty = easy
----------
 
 ### Nmap scan
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/9b8cdb3f-8296-4724-b6ce-88466fa846b8)
@@ -53,7 +49,7 @@ we are now authenticated so let's use the exploit again since we've gotten login
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ac6650fa-3764-4204-b944-2f41f8c8e5cb)
 
-we got bunches of error due to the target host we provided
+we got bunches of errors due to the target hostname we provided
 
 tho it's shows the target hostname so let's add it to our /etc/hosts file and run the exploit again
 
@@ -83,7 +79,7 @@ using ``` /usr/sbin/hping3 then /bin/bash/ -p ``` gives us root.
 
 Thanks and have a nice day.
 
-reach out to me at [twitter](https://twitter.com/0x_venus]
+reach out to me at [twitter](https://twitter.com/0x_venus)
 
-Bankai TENSA ZANGETSU lol :)
+Bankai TENSA ZANGETSU lol 😂😂
 
