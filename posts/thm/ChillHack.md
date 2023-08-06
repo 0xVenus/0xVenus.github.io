@@ -63,7 +63,7 @@ Enumeration shows that the machine is vulnerable to pwnkit
 using
 ```uname -a```
 to confirm
-so, let's move the  pwnkit exploit to the box  and run to gain root ![link](https://github.com/ly4k/PwnKit)
+so, let's move the  pwnkit exploit to the box  and run to gain root [link](https://github.com/ly4k/PwnKit)
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/1c570d7a-70dd-4fba-893b-2b5e6ecc9b9e)
 we able to cat the user and root flag
