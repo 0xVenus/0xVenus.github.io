@@ -39,7 +39,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 <hr>
 <hr>
 
-- [[AUG 06 2023]] [BBScute](https://0xVenus.github.io/posts/PG/BBScute.html) `CuteNews 2.1.2, CVE-2019-11447, Hping3 SUID bit`
+- [[AUG 06 2023]] [BBScute](https://0xVenus.github.io/posts/PG/BBScute.html) `CuteNews v2.1.2, CVE-2019-11447, Hping3 SUID binary`
 
 
 
