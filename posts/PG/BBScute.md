@@ -66,11 +66,11 @@ i used bash to get a proper revershell (tty shell)
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/6b36f57a-5c3e-4391-ab26-401c9531a79e)
 
-so checking for suid bits shows we can run hping3 as root
+so checking for suid binary shows we can run hping3 as root
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/f855eff5-5425-4d71-90ab-e1a1b07f22ef)
 
-so lets check gtfo bins for the payloads to exploit it.
+so lets check gtfo bins for the payloads to use in abusing the SUID binary.
 
 
 using ``` /usr/sbin/hping3 then /bin/bash/ -p ``` gives us root.
