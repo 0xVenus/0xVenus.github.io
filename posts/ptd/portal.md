@@ -14,6 +14,7 @@ so, let's start our enumeration from port 21 which runs FTP by default and which
 ```username: anonymous and password: hit enter(blank password)```
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a8b72bfd-a743-4eda-8a53-7a499e090871)
 And yeah we have nothing on the FTP server
+
 so, going back to our nmap scan shows the FTP server is running vSFTPD version 2.3.4
 searching for exploit led me to this [exploit](https://github.com/ahervias77/vsftpd-2.3.4-exploit)
 
@@ -25,6 +26,7 @@ Stabilizing the shell using ``` python3 -c "import pty;pty.spawn('/bin/bash')"``
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/f1099d57-55be-4515-a756-69b50807e87d)
 
 And we are Done
+
 Thanks.
 
 
