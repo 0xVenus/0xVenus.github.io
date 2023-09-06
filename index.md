@@ -54,6 +54,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 
 -  [[JUL 27 2023]] [The Bit](https://0xVenus.github.io/posts/ptd/TheBit.html) `SQLi,File upload and SUID bit`
 
+-  [[SEP 06 2023]] [Portal](https://0xVenus.github.io/posts/ptd/portal.html) `vsftpd 2.3.4`
 
 * * *
 ### **Tutorials:~#**
