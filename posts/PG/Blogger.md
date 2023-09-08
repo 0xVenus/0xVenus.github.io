@@ -1,7 +1,9 @@
 ### BLOGGER
 
 ip = 192.168.159.217
+
 difficulty = easy
+
 os = linux
 
 #### Nmap scan
@@ -29,11 +31,11 @@ let's enumerate the wordpress cms using wpscan
 it's shows the wp version is 4.9.8 and a vulnerable theme poseidon which runs an outdated version too (v2.1.1)
 and a vulnerable plugin too *wpdiscuz v7.0.4*
 
-tried exploiting the wp and the poseidon theme and non worked
+tried exploiting the wp and the poseidon theme but non worked
 
 so, let's try exploiting the wpdiscuz plugin
 
-The vulnerability let attackers upload abitrary files to wordpress site.
+The vulnerability allows abitrary file upload
 
 The details can be found [here](https://www.wordfence.com/blog/2020/07/critical-arbitrary-file-upload-vulnerability-patched-in-wpdiscuz-plugin/)
 
