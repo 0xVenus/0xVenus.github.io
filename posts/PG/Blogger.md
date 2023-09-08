@@ -39,6 +39,11 @@ The vulnerability allows abitrary file upload
 
 The details can be found [here](https://www.wordfence.com/blog/2020/07/critical-arbitrary-file-upload-vulnerability-patched-in-wpdiscuz-plugin/)
 
+In the post comment field there is an option to upload/attach image to comments
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/836b6e24-7d8f-4f27-97cb-18c0cbd326ad)
+
+so let's Intercept the request (post comment) in Burp suite and Modify the wmu_files[0] section with PNG magic bytes, file name and content type for us to upload our php reverse shell successfully
+
 
 
 
