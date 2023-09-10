@@ -30,7 +30,10 @@ so we have the user flag.
 #### Privilege escalation
 
 
+*IG the box is broken and can't execute binary file on it*
 
+*Till next time 1337*
+*contact me if you're able to root it*
 
 
 
