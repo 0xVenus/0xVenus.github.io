@@ -52,7 +52,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 * * *
 ### **PwnTillDawn:~#**
 * * *
--[[NOV 08 2022]] [Stuntman Mike](https://0xvenus.github.io/posts/ptd/StuntmanMike.html) `ssh`
+- [[NOV 08 2022]] [Stuntman Mike](https://0xvenus.github.io/posts/ptd/StuntmanMike.html) `ssh`
 
 - [[JUN 03 2023]] [PwnDrive Academy](https://0xVenus.github.io/posts/ptd/pwndriveacademy.html) `Weak Authentication, File Upload`
 
