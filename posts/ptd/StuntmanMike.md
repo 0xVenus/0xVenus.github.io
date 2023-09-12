@@ -1,7 +1,10 @@
 ## STUNTMAN MIKE
 
+
 IP - 10.150.150.166
+
 OS - LINUX
+
 DIFFICULTY - EASY
 
 ### Nmap scan
