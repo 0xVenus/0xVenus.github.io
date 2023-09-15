@@ -1,5 +1,10 @@
 ### Morty
 
+os - linux
+
+difficulty - medium
+
+
 
 
 #### Nmap scan
@@ -26,5 +31,35 @@ let's download the image and extract it with steghide using the password found e
 ```passphrase: Fl4sk#!```
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/336f855e-7a36-4f3f-8a99-f8cef4f9363f)
 
-so reading the extracted file gives rick's ssh password.
-WubaLubaDub1!
+so reading the extracted file gives rick's password.
+
+tried it for ssh but it didn't work too
+
+so, let's move to the other port which is dns (port 53)
+
+
+**enumerating port 53**
+
+let's perform a dns zone transfer**
+
+``` dig axfr @10.150.150.57 mortysserver.com```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/7aa6ea9a-3444-4b1c-9e0f-4f8cd70348d6)
+
+```This procedure is abbreviated Asynchronous Full Transfer Zone (AXFR).```
+
+let's add the domains to our /etc/hosts file too
+
+so, visiting the rickscontrolpanel.mortysserver.com shows phpmyadmin login page
+
+let's try  loggin in with ricks username and pasword we found earlier
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/5ba3cc46-7c21-493a-8012-bb4ff20be1da)
+
+dope it worked!
+
+
+
+
+
+
