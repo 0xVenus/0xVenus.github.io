@@ -1,5 +1,8 @@
 ### Morty
 
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ea6ae596-3dd7-4683-8660-1e8155880a0a)
+
 os - linux
 
 difficulty - medium
@@ -58,7 +61,7 @@ let's try  loggin in with ricks username and pasword we found earlier
 
 dope it worked!
 
-After spending some time trying to upload a webshell which i wasn't able to'.
+After spending some time trying to upload a webshell which i wasn't able to' coz i couldn't find a writable path.
 
 i found out that the phpmyadmin version is vulnerable to RCE
 
@@ -70,6 +73,12 @@ using searchsploit to find exploit
 so get the exploit using ```searchsploit -m 50457```
 
 then run it to get a reverse shell
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/69ae7b48-9777-412f-8dae-0f544f98ceae)
+
+
+
+Thanks.
 
 
 
