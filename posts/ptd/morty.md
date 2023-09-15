@@ -58,6 +58,23 @@ let's try  loggin in with ricks username and pasword we found earlier
 
 dope it worked!
 
+After spending some time trying to upload a webshell which i wasn't able to'.
+
+i found out that the phpmyadmin version is vulnerable to RCE
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/d2ce2e0c-ad27-4058-9f08-aaa951673869)
+
+using searchsploit to find exploit
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4d0697c7-3714-4779-9fe1-1aff87cca1bb)
+
+so get the exploit using ```searchsploit -m 50457```
+
+then run it to get a reverse shell
+
+
+
+
+
 
 
 
