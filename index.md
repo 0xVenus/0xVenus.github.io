@@ -42,7 +42,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 - [[AUG 06 2023]] [BBScute](https://0xVenus.github.io/posts/PG/BBScute.html) `CuteNews v2.1.2, CVE-2019-11447, Hping3 SUID binary`
 
 
-- [[Sep 08 2023]] [Blogger](https://0xVenus.github.io/posts/PG/Blogger.html) `Wpdiscuz,File upload bypass`
+- [[Sep 08 2023]] [Blogger](https://0xVenus.github.io/posts/PG/Blogger.html) `Wpdiscuz,File upload bypass,weak passwd for priv user`
 
 
 * * *
