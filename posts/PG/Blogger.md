@@ -71,6 +71,26 @@ so i used cyberchef for decoding the rot47 creds which output a base64 encoded c
 so decoding the base64 gives another base64 and decoding it again gives the output ```james:S3cr37_P@$$W0rd```
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ca8f65f0-aeb1-4fbd-aa51-0d91fe40f02c)
 
+let's change user to james using the credentials gotten
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/46f68318-ffdb-4240-bd55-ac24ee204a6b)
+
+after deep enumeration was able to switch to user vagrant by using vagrant as passwd
+```su vagrant```
+
+```password: vagrant```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/019b119c-1f69-4425-9ac5-627d0d3c3469)
+
+so, user vagrant can run anything as root
+
+```sudo su``` gives us the root shell.
+
+
+Thanks.
+Bankai Tensa zangetsu
+
+
+
 
 
 
