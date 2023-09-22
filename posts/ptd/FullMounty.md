@@ -29,12 +29,17 @@ so we have the user flag.
 
 #### Privilege escalation
 
+The box is vulnerable to dirtycow kernel exploit
 
-*IG the box is broken and can't execute binary file on it*
+to confirm run ```uname -a```
 
-*Till next time 1337*
-*contact me if you're able to root it*
+for you to be able to exploit it, you need to compile the exploit on a machine with same kernel version.
+
+doing that i was able to escalate privilege successfully
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/39f5c047-110a-4ce5-a0fe-1e83b94f5b72)
 
 
+Thanks.
 
 
