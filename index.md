@@ -44,6 +44,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 
 - [[Sep 08 2023]] [Blogger](https://0xVenus.github.io/posts/PG/Blogger.html) `Wpdiscuz,File upload bypass,weak passwd for priv user`
 
+- [[Sep 23 2023]] [Infosec-Prep](https://0xVenus.github.io/posts/PG/infosec-prep.html) `ssh,SUID & pwnkit`
 
 * * *
 ### **Hack The Box Writeups:~#**
