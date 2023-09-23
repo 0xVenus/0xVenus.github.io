@@ -29,6 +29,15 @@ so, let's ssh into the box using the username and the key
 
 ### Privilege escalation
 
+Checking what binaries have SUID permissions, we find that /bin/bash is misconfigured
+
+```find / -perm -u=s -type f 2>/dev/null```
+
+so we can easily gain root by abusing it using ```/bin/bash -p```
+
+ 
+**2nd way of gaining root**
+
 found out that the machine is vulnerable to pwnkit 
 
 so, exploitng it give us root.
