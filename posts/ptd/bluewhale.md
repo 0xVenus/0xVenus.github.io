@@ -30,9 +30,9 @@ doing that,we should be able to read the wordpress config file ``wp-config``
 
 ```bluewhale.net/wp-content/plugins/post-pdf-export/dompdf/dompdf.php?input_file=php://filter/read=convert.base64-encode/resource=../../../../wp-config.php```
 
-reading it gives us the gives us the base64 encoded file.
+reading it gives us the gives us the base64 encoded chars.
 
-decoding it shows the database credentials
+decoding it shows the mysql credential
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/01cdc783-aa0d-4bb4-90b5-4cc1923258e5)
 
