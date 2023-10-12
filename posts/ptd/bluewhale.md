@@ -1,4 +1,4 @@
-## BLUEWHALE
+## WHALE
 
 DIFFICULTY= medium
 
@@ -35,6 +35,33 @@ reading it gives us the gives us the base64 encoded chars.
 decoding it shows the mysql credential
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/01cdc783-aa0d-4bb4-90b5-4cc1923258e5)
+
+let's login to mysql with it 
+``mysql -u wordpress -h bluewhale.net -p``
+and input the password
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/7780d4f1-3484-4965-9a8e-160e4e8cad08)
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/8e86ab4c-12bc-4a85-b364-48d9a0198a5a)
+
+as u can see we have the first flag already
+
+let's proceed by checking the wp_users table 
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/eb5268df-f706-4f33-9883-980684964c78)
+
+and yeah we have the credentials for the wordpress login
+
+so, instead of cracking the password hash we can actually change the password to our desired own for easier loggin(cool trick right?) lol
+
+```UPDATE wp_users SET user_pass = MD5('hacked') WHERE ID = 1;```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/bc564284-6efa-44b7-a82f-dcd6707a4d05)
+
+so, we can now login to wordpress and proceed
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4b971843-adc4-4474-90ba-1f82bfa63aca)
+
+
 
 
 
