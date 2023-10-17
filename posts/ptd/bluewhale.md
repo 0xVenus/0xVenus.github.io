@@ -61,8 +61,8 @@ so, we can now login to wordpress and proceed
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4b971843-adc4-4474-90ba-1f82bfa63aca)
 
-
-
+login and upload a reverse shell using the add plugin feature
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/288de2a8-c124-488d-9af6-0499c0212844)
 
 
 
