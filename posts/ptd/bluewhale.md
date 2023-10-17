@@ -64,5 +64,11 @@ so, we can now login to wordpress and proceed
 login and upload a reverse shell using the add plugin feature
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/288de2a8-c124-488d-9af6-0499c0212844)
 
+and let's access our shell in the upload directory
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/49a87b3e-5c6e-4a98-952d-ae3f2b0020b0)
+
+
+
+
 
 
