@@ -67,6 +67,13 @@ login and upload a reverse shell using the add plugin feature
 and let's access our shell in the upload directory
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/49a87b3e-5c6e-4a98-952d-ae3f2b0020b0)
 
+ getthe reverse shell and stablize it
+
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4f5fedf6-4f12-4775-b36c-3350bc222824)
+
+ 
+
+
 
 
 
