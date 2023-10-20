@@ -1,5 +1,9 @@
 ## WHALE
 
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/6a7ee79c-1f97-4372-b29b-46193440a592)
+
+
+
 DIFFICULTY= medium
 
 OS = Linux
@@ -71,7 +75,10 @@ and let's access our shell in the upload directory
 
  ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4f5fedf6-4f12-4775-b36c-3350bc222824)
 
- enumerating further i got the ssh private key for the user ``whale`` in the whale home directory ``.bak`` cool :)
+
+### Privilege escalation
+
+ Enumerating further i got the ssh private key for the user ``whale`` in the whale home directory ``.bak`` cool :)
 
  ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/b03ecfd8-664d-4866-b2d6-155715944b35)
 
@@ -83,7 +90,21 @@ and let's access our shell in the upload directory
 
  ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dc6da781-061d-45c5-80dc-f1c0ab394633)
 
- 
+ so, running the command ``id`` shows the user ``whale`` is in *docker group* which we can escalate our privilege to root using it.
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/baa92ea4-4cfa-4fb5-96d7-9cc1fa8501cc)
+
+ read more about the docker group privilege escalation [here](https://flast101.github.io/docker-privesc/)
+
+following the steps should give us root
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ac79dee5-74fc-49d2-bf98-e53b52529e5a)
+
+
+Thanks.
+
+Tags: dom2pdf,docker,lfi
+
+
 
 
 
