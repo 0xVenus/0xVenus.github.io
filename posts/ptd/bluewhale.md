@@ -79,6 +79,13 @@ and let's access our shell in the upload directory
 
  ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dfe9578b-01d0-4564-b69a-2779e77e4964)
 
+ so let's read the FLAG58 which we ain't able to read before.
+
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dc6da781-061d-45c5-80dc-f1c0ab394633
+
+ 
+
+
 
 
 
