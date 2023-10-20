@@ -81,7 +81,7 @@ and let's access our shell in the upload directory
 
  so let's read the FLAG58 which we ain't able to read before.
 
- ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dc6da781-061d-45c5-80dc-f1c0ab394633
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dc6da781-061d-45c5-80dc-f1c0ab394633)
 
  
 
