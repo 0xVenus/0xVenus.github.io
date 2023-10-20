@@ -71,7 +71,15 @@ and let's access our shell in the upload directory
 
  ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4f5fedf6-4f12-4775-b36c-3350bc222824)
 
- 
+ enumerating further i got the ssh private key for the user ``whale`` in the whale home directory ``.bak`` cool :)
+
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/b03ecfd8-664d-4866-b2d6-155715944b35)
+
+ so we can now ssh into the box as user whale
+
+ ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/dfe9578b-01d0-4564-b69a-2779e77e4964)
+
+
 
 
 
