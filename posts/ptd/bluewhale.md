@@ -102,7 +102,7 @@ following the steps should give us root
 
 Thanks.
 
-Tags: dom2pdf,docker,lfi
+Tags: DOM2PDF,LFI,DOCKER
 
 
 
