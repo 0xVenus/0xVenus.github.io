@@ -29,6 +29,35 @@ And yeah there's is a note on the page telling us the location of their new webs
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/af7b0ed7-84f5-4eb4-9e1b-22c2f3cc3928)
 
+couldn't find anything intresting
+
+so, add the domain ``wekor.thm`` to your /etc/hosts file
+
+Then fuzz for subdomains using ffuf
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/f360b5f8-1fdf-4b7b-ae0c-792c7e6b52e3)
+
+And yeah, we have a valid subdomain. So, add the subdomain ``site.wekor.thm`` to your /etc/hosts file too.
+
+let's check the subdomain now
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/ca75b5b2-6d86-4890-9da7-d3e7f1f64de8)
+
+we have a possible username ``jim``
+
+let's fuzz for directories on the subdomain
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/fab4824b-d202-4dc6-bf36-75de7af115c7)
+
+we have a wordpress directory let's have a look at it.
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/b13aa8f7-baeb-4d18-87a8-b940f11580c7)
+
+Enumerate the wordpress site using ``wpscan``
+
+
+
+
+
 
 
 
