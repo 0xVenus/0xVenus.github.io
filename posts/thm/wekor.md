@@ -1,6 +1,7 @@
 <h2>WEKOR THM</h2>
 
 OS = Linux
+
 DIFFICULTY = Medium
 
 
@@ -14,7 +15,7 @@ let's start our enumeration from port 80 which is running http server
 
 As you can see there is nothing interesting on the site hompage
 
-so, checking ``robots.txt`` on the site shows this endpoints.
+so, checking ``robots.txt`` on the site revealed some endpoints.
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/f7562883-772b-4a3f-b4bd-6a17fcc40c91)
 
@@ -27,6 +28,8 @@ And yeah there's is a note on the page telling us the location of their new webs
 ``Welcome Dear Client! We've setup our latest website on /it-next, Please go check it out! If you have any comments or suggestions, please tweet them to @faketwitteraccount! Thanks a lot ! ``
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/af7b0ed7-84f5-4eb4-9e1b-22c2f3cc3928)
+
+
 
 
 
