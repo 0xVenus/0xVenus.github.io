@@ -41,7 +41,7 @@ Then dump the database by running ``sqlmap`` on the file
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/bb566073-4d01-4a39-991d-838e561b65b7)
 
-so, was able to crack the wp_yura hash
+so, was able to crack the wp_yura password 
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/2a42cb09-68c2-4388-832f-f59036128b3f)
 
