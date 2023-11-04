@@ -29,7 +29,23 @@ And yeah there's is a note on the page telling us the location of their new webs
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/af7b0ed7-84f5-4eb4-9e1b-22c2f3cc3928)
 
-couldn't find anything intresting
+going over to the cart page and applying a single quote throws SQL error indicating possible sql injection
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/d89d5ee3-1a0f-4c2d-854b-0ce4d1c18b4a)
+
+so, intercept request with burpsuite and copy the request into a file.
+
+Then dump the database by running ``sqlmap`` on the file
+
+
+
+
+
+
+
+
+
+
 
 so, add the domain ``wekor.thm`` to your /etc/hosts file
 
