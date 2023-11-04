@@ -76,6 +76,52 @@ we've gotten a foothold on the box
 
 ## PRIVILEGE ESCALATION
 
+Trying to read files in the user home directory and permission was denied
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/cf869fa0-ed13-45b8-aa86-72ab5217b7e1)
+
+Now I started to explore different files and folders but failed to find anything. Next I thought to check for services running internally that are for only 127.0.0.1.
+
+command used ``ss -tulnp``
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c67c0b86-5c55-49ae-bbf5-0f8f883a8df9)
+
+Service running on port 11211 is ``memcached`` gotten via google search,
+basically we can use this service to find the password of user Orka
+
+you can read more on memcached exploit [here](https://www.hackingarticles.in/penetration-testing-on-memcached-server/?ref=infosecarticles.com)
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/96d65624-b65e-4a8f-9710-a871e0de1837)
+
+we now have the password for user Orka
+
+``su Orka`` to switch to user Orka and read the user flag
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/d38eb60c-9a89-47c4-ba3a-017954c44701)
+
+```running ``sudo -l`` shows we can run the bitcoin binary located in the the user Desktop folder without password```
+
+and we can easily modify the contents of the folder since we own it
+
+so, we can gain root by moving the ddesktop folder to another desired folder and then create a new desktop folder with a modified bitcoin file
+
+```mv Des* venus```
+
+```mkdir Desktop;cp /bin/bash Des*/bitcoin```
+
+Then run ```sudo Des*/bitcoin``` to get root and read the root flag.
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/2fa89fa3-1457-4b75-a00f-fcf286a1156c)
+
+
+Thanks.
+
+
+
+
+
+
+
 
 
 
