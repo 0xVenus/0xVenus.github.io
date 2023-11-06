@@ -23,6 +23,23 @@ we can easily gain reverse shell by modify the execSync funtion and setting our 
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/2735706b-e8f3-49ad-958a-6900386949fc)
 
+### PRIVILEGE ESCALATION
+
+Trying to read the files in joshua directory and permission was denied
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/2ab2583d-61ff-42f2-8401-627c24c3256f)
+
+so, there's a database file in the /var/www/contact directory which contains the user joshua password hash
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/764131ac-3120-402d-9083-2bb41ded93be)
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/3120ca6f-a3d2-4699-8cc1-cfe24bd69a2a)
+
+
+
+
+
+
 
 
 
