@@ -35,6 +35,18 @@ so, there's a database file in the /var/www/contact directory which contains the
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/3120ca6f-a3d2-4699-8cc1-cfe24bd69a2a)
 
+And yeah i was able to crack the hash using john 
+
+```john --wordlist=/usr/share/wordlists/rockyou.txt hash```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/30ab44ed-694d-4e19-b35f-726623d393ab) 
+
+we can now ssh into the box as joshua to get user flag and proceed
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a1c9a152-907d-49bc-9c7f-eb783586c15d)
+
+
+
 
 
 
