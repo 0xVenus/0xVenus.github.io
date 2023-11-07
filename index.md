@@ -52,7 +52,8 @@ Practice your pentesting skills in a standalone, private lab environment with th
 * * *
 ### **Hack The Box Writeups:~#**
 * * *
-
+- [[NOV 08 2023]] [Codify](https://0xvenus.github.io/posts/htb/codify.html) `Node.js , Vm 3.9.16 R.C.E, Bruteforce`
+  
 * * *
 ### **PwnTillDawn:~#**
 * * *
