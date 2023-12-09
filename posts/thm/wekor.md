@@ -80,7 +80,7 @@ Trying to read files in the user home directory and permission was denied
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/cf869fa0-ed13-45b8-aa86-72ab5217b7e1)
 
-Now I started to explore different files and folders but failed to find anything. Next I thought to check for services running internally that are for only 127.0.0.1.
+Now I started to explore different files and folders but failed to find anything. Next I thought of checking for services running internally that are for only 127.0.0.1.
 
 command used ``ss -tulnp``
 
