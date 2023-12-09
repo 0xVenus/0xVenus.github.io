@@ -17,7 +17,7 @@ And yeah we can see it's running `vm2 version 3.9.16` which is vulnerable to ``R
 
 so, a quick google search gave the [exploit](https://gist.github.com/leesh3288/381b230b04936dd4d74aaf90cc8bb244)
 
-we can easily gain reverse shell by modify the execSync funtion and setting our netcat listener
+we can easily gain reverse shell by modifying the execSync funtion and setting our netcat listener
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c5e6cc05-bfa4-45ee-8364-6f10b32018b9)
 
@@ -41,7 +41,7 @@ And yeah i was able to crack the hash using john
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/30ab44ed-694d-4e19-b35f-726623d393ab) 
 
-we can now ssh into the box as joshua to get user flag and proceed
+we can now ssh into the box as joshua to get the user flag and proceed
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a1c9a152-907d-49bc-9c7f-eb783586c15d)
 
