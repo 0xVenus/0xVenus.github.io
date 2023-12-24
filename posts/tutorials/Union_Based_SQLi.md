@@ -4,10 +4,10 @@ HERE I SHOWCASE HOW TO PERFORM A BASIC UNION BASED SQL INJECTION (MANUALLY)
 
 KINDLY CHECK NEXT POST FOR ADVANCED UNION BASED SQLI WHERE I SHOWED HOW TO BYPASS WAFS AND FILTERS
 
-```
+``
 Performing a Union-Based SQL Injection attack manually involves injecting a crafted payload into an input field or parameter to manipulate a SQL query and retrieve unauthorized data from the database. Please note that attempting SQL injection on systems you don't own or have explicit permission to test is illegal and unethical. Only perform these actions in a controlled, legal environment with proper authorization.
 
-```
+``
 
 Target: https://testphp.vulnweb.com/ (intentionally vulnerable site created for testing purpose)
 
