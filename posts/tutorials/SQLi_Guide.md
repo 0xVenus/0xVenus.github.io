@@ -2,7 +2,7 @@
 
 Hey Cyber Adventurers!
 
-I'm *0xVenus*, your cybersecurity sherpa, and today we're diving into the dark arts of SQL injection. Welcome to my blog, where we unravel digital mysteries.
+I'm *0xVenus*, your cybersecurity sherpa, and today we're diving into the dark arts of SQL injection. Welcome to my blog, where I unravel digital mysteries.
 
 Picture this: you're surfing the web, but lurking in the shadows is SQLi, a crafty intruder preying on vulnerable web apps. I'm here to guide you through the twists and turns of this cybersecurity thriller.
 
