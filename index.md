@@ -73,6 +73,9 @@ Practice your pentesting skills in a standalone, private lab environment with th
 ### **Tutorials:~#**
 * * *
 
+- [[DEC 24 2023]] [SQL INJECTION GUIDE](https://0xvenus.github.io/posts/tutorials/SQLi_Guide.html)
+
+- [[DEC 24 2023]] [Union Based SQLi manual exploitation](https://0xvenus.github.io/posts/tutorials/Union_Based_SQLi.html) `Manually from Zero-Hero`
 
 * * *
 ### **CTF Write Ups:~#**
