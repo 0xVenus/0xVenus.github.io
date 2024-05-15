@@ -49,7 +49,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 
 - [[Sep 23 2023]] [Infosec-Prep](https://0xVenus.github.io/posts/PG/infosec-prep.html) `ssh,SUID & pwnkit`
 
-- [[NOV 09 2023]] [Inclusiveness](https://0xvenus.github.io/posts/PG/inclusisveness.html) `robots.txt bypass, LFI, FTP, SUID`
+- [[NOV 09 2023]] [Inclusiveness](https://0xvenus.github.io/posts/PG/inclusiveness.html) `robots.txt bypass, LFI, FTP, SUID`
 
 * * *
 ### **Hack The Box Writeups:~#**
