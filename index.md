@@ -31,7 +31,7 @@ _Ethical Hacking isn't a crime jsyk._
 - [[JLY 29 2023]] [Chill Hack](https://0xVenus.github.io/posts/thm/ChillHack.html) `ftp,command injection bypass,port forwading`
 - [[JLY 29 2023]] [CMess](https://0xVenus.github.io/posts/thm/CMess.html) `GILA CMS, Passwd backup  and wildcard injection`
 - [[NOV 04 2023]] [Wekor](https://0xVenus.github.io/posts/thm/wekor.html) `SQLI, password cracking, Vhost and memcached`
-
+- [[Aug 11 2025]] [Dodge](https://0xvenus.github.io/posts/thm/Dodge.hmtl) `Vhost enumeration, Firewall rule rewrite, sudo Misconfiguration`
 
 
 * * *
