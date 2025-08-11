@@ -7,7 +7,9 @@
 `Description: Test your pivoting and network evasion skills. `
 
 
-Summary: Discovering vhosts and updating firewall rules to enable a port then to ssh access via private keys from the enabled port then to privilege escalation
+Summary: Discovering vhosts and updating firewall rules to enable a port then to ssh access via private keys from the enabled port then to privilege escalation.
+
+Let's get started
 
 
 ### STARTING WITH NMAP SCAN
@@ -77,7 +79,7 @@ The user `challenger` owns the private key. So, let's ssh into the machine and w
 
 ### PRIVILEGE ESCALATION
 
-There's an encoded contents in the `/var/www/notes/api/posts.php` file
+There's an encoded strings in the `/var/www/notes/api/posts.php` file
 
 Looking at it you can tell it's in `base64`
 
