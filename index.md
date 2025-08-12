@@ -61,7 +61,7 @@ Practice your pentesting skills in a standalone, private lab environment with th
 * * *
 - [[NOV 08 2022]] [Stuntman Mike](https://0xvenus.github.io/posts/ptd/StuntmanMike.html) `ssh`
 
-- [Dec 10 2022]] [Morty](https://0xvenus.github.io/posts/ptd/morty.html) `Steganography, PHPMyAdmin`
+- [Dec 10 2022]] [Morty](https://0xvenus.github.io/posts/ptd/morty.html) `Steganography, DNS Enumeration, PHPMyAdmin, RCE`
 
 - [[JUN 03 2023]] [PwnDrive Academy](https://0xVenus.github.io/posts/ptd/pwndriveacademy.html) `Weak Authentication, File Upload`
 
