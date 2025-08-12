@@ -1,9 +1,11 @@
 ---
-layout: default
-title:  PwnTillDawn.
+Title:  PwnTillDawn.
 ---
 
-<h2 class="menu-header" id="index"><a href="../../index.html">HOME</a></h2>
+<a href="https://0xvenus.github.io" style="display:inline-block; padding:8px 12px; background:#0078d4; color:#fff; text-decoration:none; border-radius:4px;">
+    ⬅ Back to Homepage
+</a>
+
 <hr>
 
 ![image](https://github.com/0xVenus/0xVenus.github.io/assets/97831939/a049007a-4f94-48e8-8284-5b1b79183469)
