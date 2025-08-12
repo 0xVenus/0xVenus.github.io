@@ -1,4 +1,4 @@
-<h2 class="menu-header" id="index"><a href="../../../index.html">HOME</a></h2>
+<h2 class="menu-header" id="index"><a href="../index.html">HOME</a></h2>
 
 
 
