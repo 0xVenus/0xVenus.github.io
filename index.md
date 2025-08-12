@@ -9,8 +9,8 @@ title: Home
 ### Welcome To My Cyber Security Blog, H4X0r
 * * *
 
-Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking and GSM That I Learn... 😉 
-_Ethical Hacking isn't a crime jsyk._
+Yo 👋, Welcome To My Cyber Security Blog I'm 0xVenus, I Post Different Hacking Tricks, Bypasses, Writeups, Articles, Any Stuffs Related To Hacking That I Learn... 😉 
+
 
 <hr>
 <br>
@@ -82,3 +82,4 @@ Practice your pentesting skills in a standalone, private lab environment with th
 * * *
 ### **CTF Write Ups:~#**
 * * *
+- [[Dec 2024]] [HTB MeetUp CTF](https://0xvenus.github.io/posts/ctfs/htb-meetup.html)
