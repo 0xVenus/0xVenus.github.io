@@ -1,3 +1,7 @@
+<a href="https://0xvenus.github.io" style="display:inline-block; padding:8px 12px; background:#0078d4; color:#fff; text-decoration:none; border-radius:4px;">
+    ⬅ Back to Homepage
+</a>
+
 <h2>Exploiting SQLi without any SQL error in output</h2>
 
 Hi hackers,
